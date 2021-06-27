@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-image {
+    display: flex;
+    justify-content: center;
+}
+
+.img-zoom {
+    transition: all 0.7s;
+    width: 80%;
+}
+
+.img-zoom:hover {
+    transform: scale(1.5);
+    border: 2px solid #63e1e6;
+    box-shadow: 0 0 4px 4px #63e1e6;
+}
